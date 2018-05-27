@@ -32,9 +32,7 @@ class SearchBar extends React.Component {
 
   handleLocationChange(event) {
     this.setState = {
-      this.setState = {
         location: event.target.value;
-      }
     }
   }
 
