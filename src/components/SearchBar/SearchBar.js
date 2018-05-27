@@ -22,21 +22,21 @@ class SearchBar extends React.Component {
   }
 
   handleSortByChange(sortByOption) {
-    this.setState = {
+    this.setState({
       sortBy: sortByOption
-    }
+    })
   }
 
   handleTermChange(event) {
-    this.setState = {
+    this.setState({
       term: event.target.value
-    }
+    })
   }
 
   handleLocationChange(event) {
-    this.setState = {
+    this.setState({
         location: event.target.value
-    }
+    })
   }
 
   handleSearch(event) {
