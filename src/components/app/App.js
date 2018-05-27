@@ -1,7 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 import BusinessList from '../BusinessList/BusinessList';
 import SearchBar from '../SearchBar/SearchBar';
-import logo from '../../logo.svg';
 import './App.css';
 
 const business = {
